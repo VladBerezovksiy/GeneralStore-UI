@@ -1,4 +1,4 @@
-# General Store App
+# General Store => Mobile Application
 ### Tool Versions:
 1) Java ==> 11
 2) Appium Server ==> 2.0.1

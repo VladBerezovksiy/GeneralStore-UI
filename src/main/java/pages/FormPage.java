@@ -10,14 +10,10 @@ import utils.AndroidActions;
 
 public class FormPage extends AndroidActions {
 
-    public AndroidDriver driver;
-
     public FormPage(AndroidDriver driver) {
         super(driver);
-        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
-
 
     @AndroidFindBy(id = "android:id/text1")
     private WebElement countryInputField;
@@ -33,7 +29,6 @@ public class FormPage extends AndroidActions {
 
     @AndroidFindBy(id = "com.androidsample.generalstore:id/btnLetsShop")
     private WebElement shopBtn;
-
 
     public void setName(String name) {
         nameInputField.sendKeys(name);

@@ -7,7 +7,7 @@ import sample.BaseTest;
 public class CheckoutProductTest extends BaseTest {
 
     @Test
-    private void test01_checkoutProducts() {
+    public void test01_checkoutProducts() {
         formPage.setName("Vlad");
         formPage.setGender("Male");
         formPage.selectCountry("Austria");

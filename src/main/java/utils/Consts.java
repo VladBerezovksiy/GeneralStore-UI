@@ -8,7 +8,6 @@ public class Consts {
     public static final String FAILED = "[FAILED]";
     public static final String SKIPPED = "[SKIPPED]";
 
-
     private static String fs = File.separator;
     private static String resourcesPath = fs+"src"+fs+"main"+fs+"resources"+fs;
 
